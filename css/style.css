@@ -1,0 +1,136 @@
+:root {
+    --primary-color-tomato: hsl(4,100%,67%);
+    --color-neutral-dark-state-gray:hsl(234, 29%, 20%);
+    --color-neutral-charcoal-grey:hsl(235, 18%, 26%);
+    --color-neutral-grey:hsl(231, 7%, 60%);
+    --color-neutral-white:hsl(0, 0%, 100%);
+    --font-size-paragraph: 15px;
+    --font-family: Roboto, serif;
+    --font-weight-400: 400;
+    --font-weight-700: 700;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; }
+
+
+.main-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-neutral-charcoal-grey);
+}
+
+.card-main {
+    width: 800px;
+    height: 550px;
+    background-color: var(--color-neutral-white);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin: 20px;
+
+}
+
+.img-card {
+    margin-left: 40px;
+
+}
+
+.list-img {
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.button-subscribe {
+    background-color: var(--color-neutral-charcoal-grey);
+    color: var(--color-neutral-white);
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 7px;
+    font-family: var(--font-family);
+}
+
+.main-title {
+    font-size: 50px;
+    color: var(--color-neutral-charcoal-grey);
+}
+
+.img-visual {
+    width: 300px;
+    height: 95%;
+}
+
+.email-input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.2px solid var(--color-neutral-charcoal-grey);
+    );
+}
+.email-input-vazio{
+    width: 300px;
+    height: 30px;
+    border: 0.2px solid var(--primary-color-tomato);
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.button-dismiss {
+    background-color: var(--primary-color-tomato);
+    color: var(--color-neutral-white);
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 30px;
+}
+
+.sucess-card {
+    display: none;
+    background-color: var(--color-neutral-white);
+    width:450px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.sucess-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+
+}
+
+.img-sucess {
+    width: 70px;
+    height: 70px;
+}
+
+.paragraphs-sucess-card {
+    font-size: var(--font-size-paragraph);
+}
